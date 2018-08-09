@@ -1,0 +1,63 @@
+From syamkrishna.p@inapp.com  Mon Jul 30 11:42:27 2018
+Received: by mail.example.com (Postfix, from userid 1150)
+	id 167AD4B578; Mon, 30 Jul 2018 11:42:27 +0000 (UTC)
+Received: from in.inapp.com (unknown [115.111.176.92])
+	by mail.example.com (Postfix) with ESMTP id C9F9E4396D
+	for <its@bcmail.inapp.com>; Mon, 30 Jul 2018 11:42:24 +0000 (UTC)
+Received: from mail.inapp.com (unknown [192.168.1.9])
+	by in.inapp.com (Postfix) with ESMTP id 7C3E9E0EEE
+	for <its@bcmail.inapp.com>; Mon, 30 Jul 2018 17:38:50 +0530 (IST)
+Date: Mon, 30 Jul 2018 17:11:20 +0530 (IST)
+From: Syamkrishna P <syamkrishna.p@inapp.com>
+To: its <its@bcmail.inapp.com>
+Message-ID: <87863619.302176615.1532950880336.JavaMail.zimbra@inapp.com>
+Subject: asd
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_302176611_1337091919.1532950880336"
+X-Originating-IP: [192.168.1.9]
+X-Mailer: Zimbra 8.7.0_GA_1659 (ZimbraWebClient - GC67 (Linux)/8.7.0_GA_1659)
+Thread-Index: 3mKbcS4Q3NF7PVZ8/zHSwA4gZeFTiw==
+Thread-Topic: asd
+
+------=_Part_302176611_1337091919.1532950880336
+Content-Type: multipart/alternative; 
+	boundary="=_2fe8fb3c-b088-48a1-8739-5dad8407f57b"
+
+--=_2fe8fb3c-b088-48a1-8739-5dad8407f57b
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+sd 
+
+Thanks & Regards, 
+--- 
+Syamkrishna P | System Administrator 
+InApp Information Technologies 
+
+--=_2fe8fb3c-b088-48a1-8739-5dad8407f57b
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"font-family: arial,helvetica,sans-serif; font-siz=
+e: 11pt; color: #000000"><div>sd</div><div><br></div><div data-marker=3D"__=
+SIG_PRE__"><pre><span style=3D"font-family: &quot;courier new&quot;,courier=
+,monaco,monospace,sans-serif; font-size: 8pt; color: rgb(51, 51, 51);">Than=
+ks &amp; Regards,</span><br><span style=3D"font-family: &quot;courier new&q=
+uot;,courier,monaco,monospace,sans-serif; font-size: 8pt; color: rgb(51, 51=
+, 51);">---</span><br><span style=3D"font-family: &quot;courier new&quot;,c=
+ourier,monaco,monospace,sans-serif; font-size: 8pt; color: rgb(128, 128, 12=
+8);"><span style=3D"color: rgb(51, 51, 51);">Syamkrishna P | System Adminis=
+trator</span><br><span style=3D"color: rgb(128, 0, 0);"><strong>InApp Infor=
+mation Technologies</strong></span></span><br><span style=3D"font-family: t=
+ahoma,&quot;new york&quot;,times,serif; font-size: 10pt;"></span></pre></di=
+v></div></body></html>
+--=_2fe8fb3c-b088-48a1-8739-5dad8407f57b--
+
+------=_Part_302176611_1337091919.1532950880336
+Content-Type: text/plain; name=syam.txt
+Content-Disposition: attachment; filename=syam.txt
+Content-Transfer-Encoding: base64
+
+c2twMTIzCg==
+------=_Part_302176611_1337091919.1532950880336--
