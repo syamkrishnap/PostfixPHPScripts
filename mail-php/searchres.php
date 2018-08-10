@@ -43,6 +43,7 @@ while($row=mysqli_fetch_array($result_set))
 ?>
 
 <?php
+exec("rm -f /var/www/html/mail-php/extracted/*");
 exec("munpack -C /var/www/html/mail-php/extracted/ -qf /var/www/html/mail-php/uploads/'$file'");
 $filename=exec("ls -1 /var/www/html/mail-php/extracted/");
 ?>

@@ -1,0 +1,79 @@
+From syamkrishna.p@inapp.com  Fri Aug 10 06:51:19 2018
+Received: by mail.example.com (Postfix, from userid 1150)
+	id DE51BD1E55; Fri, 10 Aug 2018 06:51:19 +0000 (UTC)
+Received: from in.inapp.com (unknown [115.111.176.92])
+	by mail.example.com (Postfix) with ESMTP id A0BB2CCD6C
+	for <its@bcmail.inapp.com>; Fri, 10 Aug 2018 06:51:17 +0000 (UTC)
+Received: from mail.inapp.com (unknown [192.168.1.9])
+	by in.inapp.com (Postfix) with ESMTP id 56B85E0F43;
+	Fri, 10 Aug 2018 12:48:24 +0530 (IST)
+Date: Fri, 10 Aug 2018 12:20:04 +0530 (IST)
+From: Syamkrishna P <syamkrishna.p@inapp.com>
+To: its <its@bcmail.inapp.com>
+Cc: helpdesk inapp <helpdesk@inapp.in>
+Message-ID: <892848835.364639528.1533883804972.JavaMail.zimbra@inapp.com>
+In-Reply-To: <2855d475b7459c6eb6a0dadcb53fdbe4@localhost.localdomain>
+References: <2855d475b7459c6eb6a0dadcb53fdbe4@localhost.localdomain>
+Subject: Re: Succesfully Uploaded!!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_fceacdd5-ff78-458e-b69e-8f8132b479d5"
+X-Originating-IP: [192.168.1.9]
+X-Mailer: Zimbra 8.7.0_GA_1659 (ZimbraWebClient - FF56 (Linux)/8.7.0_GA_1659)
+Thread-Topic: Succesfully Uploaded!!
+Thread-Index: WR1DUCr9qxApa3O1pZhTsfgDg5NQjw==
+
+--=_fceacdd5-ff78-458e-b69e-8f8132b479d5
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi Team, 
+
+This is me tested. Please do not report as spam 
+
+Thanks & Regards, 
+--- 
+Syamkrishna P | System Administrator 
+InApp Information Technologies 
+
+
+From: "its" <its@bcmail.inapp.com> 
+To: "helpdesk inapp" <helpdesk@inapp.in> 
+Sent: Friday, August 10, 2018 12:17:31 PM 
+Subject: Succesfully Uploaded!! 
+
+Search URL 'http://bcmail.inapp.com:8000/mail-php/search.php' with ID 'CAOk+ENDkgUAEACT7twPJD=uwg+7uoR5Y==LGcCJyF531Ae4OdQ' to view the attachment 
+
+--=_fceacdd5-ff78-458e-b69e-8f8132b479d5
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"font-family: arial,helvetica,sans-serif; font-siz=
+e: 11pt; color: #000000"><div>Hi Team,<br></div><div><br data-mce-bogus=3D"=
+1"></div><div>This is me tested. Please do not report as spam <img src=3D"d=
+ata:image/gif;base64,R0lGODlhEgASANQSADgqCNzLrejNEqlxBsuxjc7OWsGTVe/t7LOPDv=
+nbE7+lFsrCoP32OHdpFdmrGvPvVNHR0cy1IPr6+v39cb+oTt7GKmFLCop6GvznHbqQML+jLf76V=
+tq+Qt/WMrJ1IgAAACH5BAEAAB8ALAAAAAASABIAAAXN4CeKUmmW43gQhudlSIxkBhEcYkssFFI9=
+k8mjgqC0DAeDIaBRPDYPBuP5UGgOAc8nMOgqHJWwmIMYZAKSAKIQaTvecAdngJZQOhvGBdDodBp=
+8HQ8dFBIHTlIWFg2Ji1JVBwcIE1J9GBgJFgICCQkbCpEKlAxtnAlfpp+hUZ2trgkYkAd3DK0Iig=
+itDIQHEgsKG5gJAoqmGJ8LJbMVwZfOlxsVFL0fEhAaEVHPUxEaEBIqEBQKghtQHQoUEDgp1jxNV=
+hQL3ykjhhD4+dQjIQA7"><br data-mce-bogus=3D"1"></div><div><br></div><div dat=
+a-marker=3D"__SIG_PRE__"><pre><span style=3D"font-family: &quot;courier new=
+&quot;,courier,monaco,monospace,sans-serif; font-size: 8pt; color: rgb(51, =
+51, 51);">Thanks &amp; Regards,</span><br><span style=3D"font-family: &quot=
+;courier new&quot;,courier,monaco,monospace,sans-serif; font-size: 8pt; col=
+or: rgb(51, 51, 51);">---</span><br><span style=3D"font-family: &quot;couri=
+er new&quot;,courier,monaco,monospace,sans-serif; font-size: 8pt; color: rg=
+b(128, 128, 128);"><span style=3D"color: rgb(51, 51, 51);">Syamkrishna P | =
+System Administrator</span><br><span style=3D"color: rgb(128, 0, 0);"><stro=
+ng>InApp Information Technologies</strong></span></span><br><span style=3D"=
+font-family: tahoma,&quot;new york&quot;,times,serif; font-size: 10pt;"></s=
+pan></pre></div><br><hr id=3D"zwchr" data-marker=3D"__DIVIDER__"><div data-=
+marker=3D"__HEADERS__"><b>From: </b>"its" &lt;its@bcmail.inapp.com&gt;<br><=
+b>To: </b>"helpdesk inapp" &lt;helpdesk@inapp.in&gt;<br><b>Sent: </b>Friday=
+, August 10, 2018 12:17:31 PM<br><b>Subject: </b>Succesfully Uploaded!!<br>=
+</div><br><div data-marker=3D"__QUOTED_TEXT__">Search URL 'http://bcmail.in=
+app.com:8000/mail-php/search.php' with ID 'CAOk+ENDkgUAEACT7twPJD=3Duwg+7uo=
+R5Y=3D=3DLGcCJyF531Ae4OdQ' to view the attachment<br></div></div></body></h=
+tml>
+--=_fceacdd5-ff78-458e-b69e-8f8132b479d5--
