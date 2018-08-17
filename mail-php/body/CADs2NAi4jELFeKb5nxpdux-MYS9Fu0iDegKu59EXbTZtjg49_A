@@ -1,0 +1,20 @@
+A “distributed ledger” is another term for a blockchain. It distributes a
+database (a ledger) of transactions to all participants in a network (also
+called “peers” or “nodes”). There is no central administrator or
+centralised data storage. In essence, it is:
+
+Distributed: The blockchain database is shared among potentially untrusted
+participants and is demonstrably identical on all nodes in the network. All
+participants have the same information.
+Immutable: The blockchain database is an unalterable history of all
+transactions that uses block hashes to make it easy to detect and prevent
+attempts to alter the history.
+Secure: All changes are performed by transactions that are signed by known
+identities.
+These features work together, along with agreed-upon consensus mechanisms,
+to provide “adversarial trust” among all participants in a blockchain
+network.
+
+
+-- 
+Syamkrishna.P

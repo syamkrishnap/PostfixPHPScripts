@@ -1,0 +1,12 @@
+<div dir="ltr"><div class="gmail_default" style="font-family:monospace,monospace"><p>In other words that what GMail actually receives? Simply send the 
+same mail, using exactly the same method, to one of your own mailboxes, 
+and use a tool to inspect the complete mail source. </p>
+
+<p>The reason I say this is because GMail usually inserts plus-signs when there&#39;s a space in the URL. </p>
+
+<p>You have to be absolutely sure it&#39;s not your end inserting them. Just
+ looking at what you intent to send is not enough in this case.</p>
+
+<p>I can only guess why spaces would appear in your output. It all 
+depends on how you send emails. Usually it is caused by a conversion or 
+encoding/decoding.</p></div><br>-- <br><div dir="ltr" class="gmail_signature" data-smartmail="gmail_signature">Syamkrishna.P<br></div></div>

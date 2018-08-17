@@ -1,0 +1,12 @@
+Mail servers can be broken down into two main categories: outgoing mail
+servers and incoming mail servers. Outgoing mail servers are known as SMTP,
+or Simple Mail Transfer Protocol, servers. Incoming mail servers come in
+two main varieties. POP3, or Post Office Protocol, version 3, servers are
+best known for storing sent and received messages on PCs' local hard
+drives. IMAP, or Internet Message Access Protocol, servers always store
+copies of messages on servers. Most POP3 servers can store messages on
+servers, too, which is a lot more convenient.
+
+
+-- 
+Syamkrishna.P

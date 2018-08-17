@@ -1,0 +1,42 @@
+From sm.krrish@gmail.com  Fri Aug 17 11:39:16 2018
+Received: by mail.example.com (Postfix, from userid 1150)
+	id 025F1D1E9B; Fri, 17 Aug 2018 11:39:16 +0000 (UTC)
+Received: from mail-lf1-f52.google.com (mail-lf1-f52.google.com [209.85.167.52])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mail.example.com (Postfix) with ESMTPS id 9EAE2D1E90
+	for <its@bcmail.inapp.com>; Fri, 17 Aug 2018 11:39:13 +0000 (UTC)
+Received: by mail-lf1-f52.google.com with SMTP id j8-v6so5672747lfb.4
+        for <its@bcmail.inapp.com>; Fri, 17 Aug 2018 04:39:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=E4Hj06iwk9IvknuW+OVtfBKR0hmzk2fe3gpGRHHJI24=;
+        b=m+ClpZN/HU5hOQSDHg/2I8kCIiSPtSeMbqwIBZG2ktKkxVY195lKPgaH2EDJxUQvc9
+         vQqDtjqnKu2eJuYUqjbkRXvFaqvTjYYGzyghANCiohw9vNPyAIWHedH+ZvOk63j9nnjX
+         45LA8qkMZjPj+0BjSpIGZNwKDf5rrQ0P27Y8/vwt595cD9v0zvZ3dBdNOn4EVAlpTCxO
+         0IuoOykZev34rxJPkxairXzqnNHSYkUxz8ZcaiYQaNAN0ujV9VeRR2wCUz8uPZ3Jub49
+         4AkT/SKoSKUhfS2+BbOgsl0WEOT71Vkf1n/CpYadmpWKNPaD9JUAJi1uCJrjkfodfF8M
+         jvhQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=E4Hj06iwk9IvknuW+OVtfBKR0hmzk2fe3gpGRHHJI24=;
+        b=m69M+QPh93ydam2MtJK7BYj/MEzaJ7vz/+HiIdFyriiDh5RDm49KqhPNolHFSkNLvp
+         R33KkQIzpjbKakd/xzA0TWzCZ8PUAwfWkfCU14au1az0kfqGod4hPW4MDpmEqVxCT2il
+         sebi823b0d94LsV2Stx3FKXG+aSzhqagV5PQYlWPqW8s5enYmCOzdArNC4DXuHa/1Wy8
+         yiqBY475cqajtKyU3RRSjWPKHULLK6Yf4s8+i+oBt08GPc0GEOc7MwpLWkdcBe/lQbSS
+         l1zCBbLL/DZStvxKsJuxiSDebFw2c1DFeqlJxL1aFGLb8wfSfWr/MQl1oolGvinxtmqu
+         eyxw==
+X-Gm-Message-State: AOUpUlGNieWNxreSc8vxpBpDPSbOkX6kPC1i0AQmWjlyi4fROVZVOO7r
+	CJ0E1YZr9oOF96xNLEcRJ1u99OS8zDj0brR52UnTTg==
+X-Google-Smtp-Source: AA+uWPxb8hBIcyAzXgaJFHr2VfVwZoNsDHcCMkGkrap6N4LR5hs2CXQ3lfhasojCUHej5DlRW85s12Xo94iNuMSGjaE=
+X-Received: by 2002:a19:1819:: with SMTP id o25-v6mr3896005lfi.50.1534505951975;
+ Fri, 17 Aug 2018 04:39:11 -0700 (PDT)
+MIME-Version: 1.0
+From: Syam KP <sm.krrish@gmail.com>
+Date: Fri, 17 Aug 2018 17:09:05 +0530
+Message-ID: <CADs2NAgg+_Ri=V60u0L48XbnMu4_A4BKJTOO0uRkEqFJGTwaUw@mail.gmail.com>
+Subject: Test attachment 2 with ripmime
+To: its@bcmail.inapp.com
+Content-Type: multipart/mixed; boundary="0000000000002c781b0573a0022d"

@@ -1,0 +1,11 @@
+This is something related to CACHING concept. suppose, you have recently
+deployed your php code on your server but you forgot to upload images. you
+tested once with your email logic. your system generated an HTML email.
+When this email will hit the gmail server GoogleImageProxy will try to
+fetch and store the images from your site to its own proxy server. while
+fetching the images, GoogleImageProxy found some 404 statuses against your
+missing images and 403 against some protected images. GoogleImagesProxy has
+stored these statuses into its own proxy server.
+
+-- 
+Syamkrishna.P

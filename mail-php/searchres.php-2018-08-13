@@ -27,17 +27,7 @@ include_once 'dbconfig-mail.php';
 
 <?php
 
-//$ID = $_POST['txt_search_ID'];
-
-$ID = 0;
-
-if(isset($_POST['txt_search_ID']) && $_POST['txt_search_ID'] != ''){
 $ID = $_POST['txt_search_ID'];
-}
-
-if(isset($_GET['txt_search_ID']) && $_GET['txt_search_ID'] != ''){
-$ID = $_GET['txt_search_ID'];
-}
 
 $sql=("SELECT * FROM `tbl_uploads` WHERE `ID`='$ID';");
 $result_set=mysqli_query($conn, $sql);

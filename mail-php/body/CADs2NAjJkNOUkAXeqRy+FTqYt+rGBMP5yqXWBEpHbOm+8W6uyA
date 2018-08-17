@@ -1,0 +1,18 @@
+Many people use web-based email clients, like Yahoo Mail and Gmail. Those
+who require a lot more space - especially businesses - often have to invest
+in their own servers. That means that they also have to have a way of
+receiving and transmitting emails, which means that they need to set up
+their own mail servers. To that end, programs like Postfix and Microsoft
+Exchange are two of the most popular options. Such programs facilitate the
+preceding process behind the scenes. Those who send and receive messages
+across those mail servers, of course, generally only see the "send" and
+"receive" parts of the process.
+
+At the end of the day, a mail server is a computer that helps move files
+along to their intended destinations. In this case, of course, those files
+are email messages. As easy as they are to take for granted, it's smart to
+have a basic grasp of how mail servers work.
+
+
+-- 
+Syamkrishna.P

@@ -1,0 +1,16 @@
+In other words that what GMail actually receives? Simply send the same
+mail, using exactly the same method, to one of your own mailboxes, and use
+a tool to inspect the complete mail source.
+
+The reason I say this is because GMail usually inserts plus-signs when
+there's a space in the URL.
+
+You have to be absolutely sure it's not your end inserting them. Just
+looking at what you intent to send is not enough in this case.
+
+I can only guess why spaces would appear in your output. It all depends on
+how you send emails. Usually it is caused by a conversion or
+encoding/decoding.
+
+-- 
+Syamkrishna.P
