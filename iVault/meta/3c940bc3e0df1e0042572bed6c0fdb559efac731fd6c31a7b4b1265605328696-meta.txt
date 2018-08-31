@@ -1,0 +1,45 @@
+From syamkrishna.p@inapp.com  Mon Aug 20 18:41:33 2018
+Received: by mail.example.com (Postfix, from userid 1150)
+	id 98098D1ED4; Mon, 20 Aug 2018 18:41:33 +0000 (UTC)
+Received: from mail-oi0-f46.google.com (mail-oi0-f46.google.com [209.85.218.46])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mail.example.com (Postfix) with ESMTPS id 685E3CB94F
+	for <its@bcmail.inapp.com>; Mon, 20 Aug 2018 18:41:31 +0000 (UTC)
+Received: by mail-oi0-f46.google.com with SMTP id n21-v6so27615928oig.3
+        for <its@bcmail.inapp.com>; Mon, 20 Aug 2018 11:41:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=inapp-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=Pb90XEMQHtJUIe7YEdh1SoiIZJMzwpnD4RRM7C/ddDE=;
+        b=CGzB27n+chJ5RoDOzTto+9RVZ530ka9igfkrzHLeEFl+2sZRxoZXMQi+cTKh1nY3eZ
+         cBLSl2mlJ/y3aYJGJ7NX6MQ+tDi25s+7NKUM7iYa/Tw+CtAeMevpaGLigR+ErEcrscqg
+         uQBOaRnAvel593SmND7QeY39AUvE18V1Eny8Jf1FgilO6/TwTqSm3websixeT8vTQeHT
+         oetHrVZ4KDGw9OdzYtZp86kY4Xgm3Spq+tT9cpAO5wridsnubWFJzOZl2c53arZ0Uxgb
+         XGfOuZKjrzbmZ9umBWdANChqTyeJKeK87WrCjOkS43qPlLUdJMDNgYJjn/PAlMGc3q9P
+         4B3w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=Pb90XEMQHtJUIe7YEdh1SoiIZJMzwpnD4RRM7C/ddDE=;
+        b=bnA4ZwT5dbRlriEOsaB9rf89XuHft+y3nRGaPjtKhdWqtfX0MqUXMfm3VSsyR7r0Ns
+         9iW1TmWkLp0l9C9baz3Hif46QAm1ALufdOz+7X+OYcVA+cAd0vO6ATiPw74yMrr1MZnC
+         /h4ABEDJR1UwGBf2ENl66gH3ry4+Me5SsAHrmzLwiyzSpbXX7evsYTEAMr7gLQk/TylV
+         Ru02jt7gkWfuQfeVFmxg/rrOsdcp7+Bss5vuG/UwiKn5N9YjU+aeOEbtawaa9MWeicAy
+         6Y+tV2Afd8TID0dD+Vp+HyiHFb0NJj4q4KTskrxQKtkuA1CrIIVu+LzvHr2kWWbuayRA
+         272g==
+X-Gm-Message-State: AOUpUlFH5/dL1g6x7TEAeQVGtu4qXKjXSJ5IOSoJKcBRnLQDsq5PSOWa
+	xCehgoUQF69wawdS6pXIvZW+Hf3hl4giZp1iR0FxjUWp/mG0C8Dy
+X-Google-Smtp-Source: ANB0Vdbn9gcsG1vUdzDS/x48dBXA9Hwisuv+ZQ4d9fqHIOHFLwRBEm0GOQ74J9jve+zItkmm9i//WpZvv/TOvLrjXRI=
+X-Received: by 2002:aca:c78c:: with SMTP id x134-v6mr15965450oif.8.1534790489651;
+ Mon, 20 Aug 2018 11:41:29 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a9d:4707:0:0:0:0:0 with HTTP; Mon, 20 Aug 2018 11:41:29
+ -0700 (PDT)
+X-Originating-IP: [111.92.59.219]
+From: Syamkrishna P <syamkrishna.p@inapp.com>
+Date: Tue, 21 Aug 2018 00:11:29 +0530
+Message-ID: <CADmoaSdHCy9FUbzwy2h-Hgwv5toVqzJ+M6YJR4abck-SBP+DZA@mail.gmail.com>
+Subject: test again kafka
+To: its@bcmail.inapp.com
+Content-Type: multipart/mixed; boundary="000000000000f197fe0573e24174"

@@ -1,0 +1,45 @@
+From syamkrishna.p@inapp.com  Mon Aug 20 18:47:35 2018
+Received: by mail.example.com (Postfix, from userid 1150)
+	id 88DB5D1ED6; Mon, 20 Aug 2018 18:47:35 +0000 (UTC)
+Received: from mail-oi0-f51.google.com (mail-oi0-f51.google.com [209.85.218.51])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mail.example.com (Postfix) with ESMTPS id 597BAD1ED3
+	for <its@bcmail.inapp.com>; Mon, 20 Aug 2018 18:47:33 +0000 (UTC)
+Received: by mail-oi0-f51.google.com with SMTP id m11-v6so27677089oic.2
+        for <its@bcmail.inapp.com>; Mon, 20 Aug 2018 11:47:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=inapp-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=IrIergrwkVO80wqwRe5aD1wH+y8Nj4s0VaVkZmLaEmY=;
+        b=BavMuYc8B8mjd4466vp0EUkOFtcaDF62SVVcQjdiZ4XhwJeOmSriiSK0th/Cqf3M1d
+         eg+t0eG44BTdmdby7VFxstxu9xQOoj0Fyi+qJDDBJ3S4if2JlIi9nVO2yFxFq2pRmeTd
+         KBNV26CQFk6WF+9mG3TwECZMMA22rf5lO7nE8OsKHn5NUo/oyyBc6hVUmjMgmlG05kHs
+         OgMqEBy7mcmtUDTdYerj9p1Cl5a9+s9t2YWEP/3fawuKOiZdtQeU0N9qmhZFNAfHqN86
+         HJfaC9b6Xjxzt+FbeesuRuEPrDgDCACJY4G1o6H+KlOCrC/sZVOzlQwJfkkFjGQLRd1R
+         v6Tg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=IrIergrwkVO80wqwRe5aD1wH+y8Nj4s0VaVkZmLaEmY=;
+        b=cIXBmMfEL1V8mj0p3LQMNioxmt2vpmaBE4D5CM8Bjx47ud2iN1YKaPix2emV7hSgXy
+         yvXOgUvicamZym4eTXv7G6H+FcworXnmRtFgsXcVbLDdC74Chx/FSi/10NIArooI65T/
+         crcqca8xR5W9ZM89ST/D1OaXqct6OJEvm9KXjrQS4++k3tOXMGVLmfubMIA8kqEZNNOz
+         0JhmiAWXK/Xjgktxvl2ifRutvKoH7GYxOGnAXoE5FMx2LOkPgGz2VwKGW8g283vMVZcX
+         in8yqaKuqQ7Z1s9HzI+GQvXSCRmInuFOI/GDpvWBSphTw1xHvmCQSDYtl5iJrbgbYHI8
+         KrZQ==
+X-Gm-Message-State: AOUpUlE00Ep6Sezrhv8oGRW8GUNI8C2J9aHbRsg0W5pV1SIYoksiHBHI
+	M6MqJwFI7TepByCjtHp3KssChmSWl4lvsHnKYw+FE9pW5pf66ItqqbM=
+X-Google-Smtp-Source: AA+uWPy3a6/Y1XXyYvZfJXA9QVvJjXyXxhDOF5WKDOFdqLwlQ6XjsYp9rHcsGtmzoxDL9VnH/WImG9MkM1L84u8/xKU=
+X-Received: by 2002:aca:5dc5:: with SMTP id r188-v6mr16139184oib.320.1534790852451;
+ Mon, 20 Aug 2018 11:47:32 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a9d:4707:0:0:0:0:0 with HTTP; Mon, 20 Aug 2018 11:47:31
+ -0700 (PDT)
+X-Originating-IP: [111.92.59.219]
+From: Syamkrishna P <syamkrishna.p@inapp.com>
+Date: Tue, 21 Aug 2018 00:17:31 +0530
+Message-ID: <CADmoaScBrSg8KsHrg6nAGdpV-5zjYRvB6nttx9Q4LceUzh=BhA@mail.gmail.com>
+Subject: Docker concepts
+To: its@bcmail.inapp.com
+Content-Type: multipart/mixed; boundary="0000000000009131c70573e25724"

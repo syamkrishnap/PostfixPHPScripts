@@ -10,12 +10,17 @@ if(isset($_GET['txt_search_ID']) && $_GET['txt_search_ID'] != ''){
 $ID = $_GET['txt_search_ID'];
 }
 
-$download=exec("curl -F 'name=$ID' http://34.239.50.216:8080/iVault/getData");
+//$download=exec("curl -F 'name=$ID' http://34.239.50.216:8080/iVault/getData");
+$download=exec("curl -F 'name=$ID' http://182.76.203.189:8080/iVault/getData");
 $split = explode(",", $download);
 $down_url = $split[0];
 $file_hash = $split[1];
-exec("curl $down_url -o meta/mail-header.txt");
-exec("sed '/Content-Type:/q' meta/mail-header.txt > meta/mail-header-meta.txt");
+//exec("curl $down_url -o meta/mail-header.txt");
+//exec("sed '/Content-Type:/q' meta/mail-header.txt > meta/mail-header-meta.txt");
+
+$down_url_id=exec("echo $down_url |cut -d/ -f5");
+exec("curl 'http://182.76.203.189:8080/download/$down_url_id' -o meta/$ID.txt");
+exec("sed '/Content-Type:/q' meta/$ID.txt > meta/$ID-meta.txt");
 
 ?>
 <!DOCTYPE html>
@@ -51,8 +56,11 @@ exec("sed '/Content-Type:/q' meta/mail-header.txt > meta/mail-header-meta.txt");
     <div class="wrapper py-4 px-2">
         <div class="container">
 <?php 
- $from=exec("cat meta/mail-header-meta.txt|grep ^From:|cut -d'<' -f2|cut -d'>' -f1");
- $sub=exec("cat meta/mail-header-meta.txt|grep ^Subject:|cut -d':' -f2|sed -e 's/^[ \t]*//'");
+// $from=exec("cat meta/mail-header-meta.txt|grep ^From:|cut -d'<' -f2|cut -d'>' -f1");
+// $sub=exec("cat meta/mail-header-meta.txt|grep ^Subject:|cut -d':' -f2|sed -e 's/^[ \t]*//'");
+
+ $from=exec("cat meta/$ID-meta.txt|grep ^From:|cut -d'<' -f2|cut -d'>' -f1");
+ $sub=exec("cat meta/$ID-meta.txt|grep ^Subject:|cut -d':' -f2|sed -e 's/^[ \t]*//'");
 
  exec("rm -f /var/www/html/iVault/extracted/*");
 // exec("munpack -C /var/www/html/iVault/extracted/ -qtf /var/www/html/iVault/meta/mail-header.txt");
@@ -60,7 +68,7 @@ exec("sed '/Content-Type:/q' meta/mail-header.txt > meta/mail-header-meta.txt");
 // exec("mv /var/www/html/iVault/extracted/part* /var/www/html/iVault/body/" );
 // $filename=exec("ls -1 /var/www/html/iVault/extracted/");
 
- exec("ripmime -i /var/www/html/iVault/meta/mail-header.txt -d /var/www/html/iVault/extracted/");
+ exec("ripmime -i /var/www/html/iVault/meta/$ID.txt -d /var/www/html/iVault/extracted/");
  exec("rm /var/www/html/iVault/body/*");
  exec("mv /var/www/html/iVault/extracted/textfile* /var/www/html/iVault/body/" );
  $filename=exec("ls -1 /var/www/html/iVault/extracted/"); 
